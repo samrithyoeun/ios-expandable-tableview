@@ -16,6 +16,8 @@
 		FC7543BC2497819A00DB932A /* ExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7543BB2497819A00DB932A /* ExpandableTableView.swift */; };
 		FC7543BF2497820000DB932A /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7543BD2497820000DB932A /* ExpandableTableViewCell.swift */; };
 		FC7543C02497820000DB932A /* ExpandableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7543BE2497820000DB932A /* ExpandableTableViewCell.xib */; };
+		FC7543E52498992D00DB932A /* ExpanableMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7543E32498992D00DB932A /* ExpanableMenuTableViewCell.swift */; };
+		FC7543E62498992D00DB932A /* ExpanableMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7543E42498992D00DB932A /* ExpanableMenuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FC7543BB2497819A00DB932A /* ExpandableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableView.swift; sourceTree = "<group>"; };
 		FC7543BD2497820000DB932A /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
 		FC7543BE2497820000DB932A /* ExpandableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableTableViewCell.xib; sourceTree = "<group>"; };
+		FC7543E32498992D00DB932A /* ExpanableMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanableMenuTableViewCell.swift; sourceTree = "<group>"; };
+		FC7543E42498992D00DB932A /* ExpanableMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpanableMenuTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				FC7543BB2497819A00DB932A /* ExpandableTableView.swift */,
 				FC7543BD2497820000DB932A /* ExpandableTableViewCell.swift */,
 				FC7543BE2497820000DB932A /* ExpandableTableViewCell.xib */,
+				FC7543E32498992D00DB932A /* ExpanableMenuTableViewCell.swift */,
+				FC7543E42498992D00DB932A /* ExpanableMenuTableViewCell.xib */,
 				FC7543AD2497817A00DB932A /* Main.storyboard */,
 				FC7543B02497818000DB932A /* Assets.xcassets */,
 				FC7543B22497818000DB932A /* LaunchScreen.storyboard */,
@@ -136,6 +142,7 @@
 			files = (
 				FC7543B42497818000DB932A /* LaunchScreen.storyboard in Resources */,
 				FC7543B12497818000DB932A /* Assets.xcassets in Resources */,
+				FC7543E62498992D00DB932A /* ExpanableMenuTableViewCell.xib in Resources */,
 				FC7543AF2497817A00DB932A /* Main.storyboard in Resources */,
 				FC7543C02497820000DB932A /* ExpandableTableViewCell.xib in Resources */,
 			);
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7543E52498992D00DB932A /* ExpanableMenuTableViewCell.swift in Sources */,
 				FC7543AC2497817A00DB932A /* ViewController.swift in Sources */,
 				FC7543A82497817A00DB932A /* AppDelegate.swift in Sources */,
 				FC7543AA2497817A00DB932A /* SceneDelegate.swift in Sources */,
